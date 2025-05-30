@@ -10,7 +10,7 @@ const contactInfo = function(name, position, number, email){
 
     const pos = document.createElement("p");
     pos.style.marginLeft = "50px";
-    pos.textContent = position;Chef
+    pos.textContent = position;
     contact.appendChild(pos);
 
     const num = document.createElement("p");
